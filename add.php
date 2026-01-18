@@ -14,14 +14,14 @@
 <input class="form-control mb-2" name="school_id" placeholder="School ID" required>
 <input class="form-control mb-2" name="reg_no" placeholder="Registration Number" required>
 <input class="form-control mb-2" name="name" placeholder="Student Name" required>
-<input class="form-control mb-2" name="grade" placeholder="Grade">
+<input class="form-control mb-2" name="grade" placeholder="Grade" required>
 
-<select class="form-control mb-2" name="gender">
+<select class="form-control mb-2" name="gender" required>
 <option>Male</option>
 <option>Female</option>
 </select>
 
-<input type="date" class="form-control mb-2" name="dob">
+<input type="date" class="form-control mb-2" name="dob"required>
 <input class="form-control mb-2" name="family_income" placeholder="Family Income">
 
 <button class="btn btn-primary" name="save">Save</button>
